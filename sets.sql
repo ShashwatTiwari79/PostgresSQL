@@ -1,0 +1,16 @@
+--UNION--
+-- select "Country/Region" from country_wise_latest 
+-- union
+-- select "WHO Region" from worldometer;
+--UNION ALL--
+-- select "Country/Region" from country_wise_latest 
+-- union all
+-- select "WHO Region" from worldometer;
+--INTERSECT--
+-- select "Country/Region" from country_wise_latest
+-- intersect
+-- select "Country/Region" from worldometer;
+--EXCEPT--
+-- select "WHO Region" from country_wise_latest
+-- except
+-- select "WHO Region" from worldometer;
